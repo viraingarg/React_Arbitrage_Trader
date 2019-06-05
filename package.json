@@ -1,17 +1,28 @@
 {
-  "name": "react_websocket",
+  "name": "react_arbitrage_trader",
+  "homepage": "https://viraingarg.github.io/React_Arbitrage_Trader/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.19.0",
+    "billboard.js": "^1.8.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-loader-spinner": "^2.3.0",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "3.0.1",
+    "sockjs": "^0.3.19",
+    "sockjs-client": "^1.3.0",
+    "gh-pages": "^2.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "windows-build": "npm install && react-scripts build && rmdir /s /q node_modules"
   },
   "eslintConfig": {
     "extends": "react-app"
