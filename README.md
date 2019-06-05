@@ -1,3 +1,5 @@
+Open [https://viraingarg.github.io/React_Arbitrage_Trader/index.html#/](https://viraingarg.github.io/React_Arbitrage_Trader/index.html#/) to open deployed project.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
